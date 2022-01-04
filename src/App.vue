@@ -1,26 +1,20 @@
+
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1>Vue Js</h1>
+  <Car/>
+  <Motos/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Car from './components/Carcomposition.vue'
+import Motos from './components/Motos.vue'
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+    components:{ Car,Motos
+      
+    }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
