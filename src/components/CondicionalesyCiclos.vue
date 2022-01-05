@@ -1,7 +1,7 @@
 <template>
-  <h2>Coche</h2>
+  <!-- <h2>Coche</h2>
   <p>Marca: {{brand}} </p>
-  <p>Modelo: {{model}} </p>
+  <p>Modelo: {{model}} </p> -->
 
   <!--Condicionales-->
   <!-- <p>Potencias en zonas urbanas deben ser menores a 200cc</p>
@@ -115,7 +115,7 @@ export default {
     }
   } */
   //Condicionales
-  setup() {
+  /* setup() {
     const brand = 'Ferrari'
     const model = 1987
     const powers = [150, 458, 1500, 450, 650, 100, 180, 200]
@@ -124,7 +124,7 @@ export default {
       brand, model, powers
     }
     
-  }
+  } */
 }
 </script>
 
